@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D981D01-DF85-40DA-8CC6-E4345BE548B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{06F0CEBC-8F4C-416C-84E9-0A85A9C8BE16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B0FCFCDC-B897-4FEC-B440-A97BA1817925}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7E4308B0-BED2-43AA-A1FC-C895E5F5ACFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Core", "src\building blocks\ControlList.Core\CL.Core.csproj", "{F5BA414F-09B6-4BE0-9524-A593153AE173}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{B742939B-C090-48A0-9EF4-0F179FEB5701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Identity.api", "src\services\CL.Identity.Api\CL.Identity.api.csproj", "{EA779C43-5D3F-4AF7-9D13-2FA1A0E91A84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5BA414F-09B6-4BE0-9524-A593153AE173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BA414F-09B6-4BE0-9524-A593153AE173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BA414F-09B6-4BE0-9524-A593153AE173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BA414F-09B6-4BE0-9524-A593153AE173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA779C43-5D3F-4AF7-9D13-2FA1A0E91A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA779C43-5D3F-4AF7-9D13-2FA1A0E91A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA779C43-5D3F-4AF7-9D13-2FA1A0E91A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA779C43-5D3F-4AF7-9D13-2FA1A0E91A84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06F0CEBC-8F4C-416C-84E9-0A85A9C8BE16} = {5D981D01-DF85-40DA-8CC6-E4345BE548B9}
+		{B0FCFCDC-B897-4FEC-B440-A97BA1817925} = {5D981D01-DF85-40DA-8CC6-E4345BE548B9}
+		{7E4308B0-BED2-43AA-A1FC-C895E5F5ACFB} = {06F0CEBC-8F4C-416C-84E9-0A85A9C8BE16}
+		{F5BA414F-09B6-4BE0-9524-A593153AE173} = {7E4308B0-BED2-43AA-A1FC-C895E5F5ACFB}
+		{B742939B-C090-48A0-9EF4-0F179FEB5701} = {B0FCFCDC-B897-4FEC-B440-A97BA1817925}
+		{EA779C43-5D3F-4AF7-9D13-2FA1A0E91A84} = {B742939B-C090-48A0-9EF4-0F179FEB5701}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A69CA10E-970A-40E3-A12A-AFD1088B2427}
+	EndGlobalSection
+EndGlobal
